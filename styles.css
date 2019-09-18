@@ -7,12 +7,25 @@ body,
 
 #app {
   display: flex;
-  flex-wrap: wrap-reverse;
 }
 
 .box {
   width: 150px;
   height: 60px;
-  background: #f00;
   margin: 5px;
+}
+
+.red {
+  background: #f00;
+  order: 3;
+}
+
+.green {
+  background: #0f0;
+  order: 2;
+}
+
+.blue {
+  background: #00f;
+  order: 0;
 }
